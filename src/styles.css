@@ -65,9 +65,69 @@ body {
 
 /* Weather info */
 
+p {
+  color: hsla(28, 100%, 8%, 0.8);
+}
+
 .city-main-info {
-  display: grid;
-  grid-gap: 24px;
-  grid-template-columns: 1fr 1fr;
   align-items: center;
+  border-bottom: 1px solid hsl(28, 4%, 96%);
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 24px;
+}
+
+.current-weather-container {
+  align-content: center;
+  display: flex;
+}
+
+.degrees {
+  color: hsl(28, 100%, 8%);
+  font-size: 32px;
+  font-weight: bold;
+  margin-top: 4px;
+}
+
+.highlights {
+  color: hsl(28, 99%, 40%);
+  font-weight: bold;
+}
+
+.temp-icon {
+  font-size: 40px;
+  margin-right: 8px;
+  margin-top: 16px;
+}
+
+.temp-number {
+  color: hsl(28, 100%, 8%);
+  font-size: 64px;
+  font-weight: bold;
+}
+
+.temp-unit {
+  color: hsl(28, 100%, 8%);
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: 4px;
+}
+
+/* Footer */
+
+footer {
+  color: hsla(28, 100%, 8%, 0.6);
+  display: block;
+  font-size: 14px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+a {
+  color: hsl(28, 100%, 8%);
+  transition: color 200ms;
+}
+
+a:hover {
+  color: hsl(28, 100%, 24%);
 }
