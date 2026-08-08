@@ -78,7 +78,6 @@ p {
 }
 
 .current-weather-container {
-  align-content: center;
   display: flex;
 }
 
@@ -95,9 +94,8 @@ p {
 }
 
 .temp-icon {
-  font-size: 40px;
-  margin-right: 8px;
-  margin-top: 16px;
+  height: 80px;
+  margin-top: 0%;
 }
 
 .temp-number {
