@@ -65,8 +65,9 @@ body {
 
 /* Weather info */
 
-p {
+.conditions-lines {
   color: hsla(28, 100%, 8%, 0.8);
+  margin-bottom: 4px;
 }
 
 .city-main-info {
@@ -117,6 +118,7 @@ p {
   display: flex;
   justify-content: space-between;
   padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .forecast-day {
@@ -129,8 +131,8 @@ p {
 }
 
 .forecast-icon {
-  height: 40px;
-  margin: 8px 0;
+  height: 68px;
+  margin: 2px 0;
 }
 
 .forecast-temperatures {
