@@ -111,6 +111,43 @@ p {
   margin-top: 4px;
 }
 
+/* Forecast */
+
+.weather-forecast {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 24px;
+}
+
+.forecast-day {
+  text-align: center;
+}
+
+.forecast-day-name {
+  color: hsl(28, 100%, 8%);
+  font-weight: bold;
+}
+
+.forecast-icon {
+  height: 40px;
+  margin: 8px 0;
+}
+
+.forecast-temperatures {
+  display: flex;
+  gap: 6px;
+  justify-content: center;
+  font-size: 14px;
+}
+
+.forecast-temperature-max {
+  font-weight: bold;
+}
+
+.forecast-temperature-min {
+  color: hsla(28, 100%, 8%, 0.6);
+}
+
 /* Footer */
 
 footer {
